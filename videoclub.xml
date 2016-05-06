@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_80" class="java.beans.XMLDecoder">
+ <object class="videoclubfichero.ListaPeliculas" id="ListaPeliculas0">
+  <void property="lista">
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>001</string>
+     </void>
+     <void property="duracion">
+      <int>1</int>
+     </void>
+     <void property="genero">
+      <string>Terror</string>
+     </void>
+     <void property="titulo">
+      <string>El hombre que tenia un Windows Phone</string>
+     </void>
+     <void property="valoracion">
+      <int>6</int>
+     </void>
+     <void property="visto">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>002</string>
+     </void>
+     <void property="duracion">
+      <int>190</int>
+     </void>
+     <void property="genero">
+      <string>Drama</string>
+     </void>
+     <void property="titulo">
+      <string>Lo que el viento se llevó</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>dfg</string>
+     </void>
+     <void property="titulo">
+      <string>dfg</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>123</string>
+     </void>
+     <void property="genero">
+      <string>Accion</string>
+     </void>
+     <void property="titulo">
+      <string>LA PELI</string>
+     </void>
+     <void property="valoracion">
+      <int>2</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>12</string>
+     </void>
+     <void property="duracion">
+      <int>30</int>
+     </void>
+     <void property="genero">
+      <string>Thriller</string>
+     </void>
+     <void property="titulo">
+      <string>EFSGF</string>
+     </void>
+     <void property="valoracion">
+      <int>3</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>22</string>
+     </void>
+     <void property="duracion">
+      <int>240</int>
+     </void>
+     <void property="genero">
+      <string>Ciencia Ficcion</string>
+     </void>
+     <void property="titulo">
+      <string>FGHGFH</string>
+     </void>
+     <void property="valoracion">
+      <int>3</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>1223</string>
+     </void>
+     <void property="duracion">
+      <int>30</int>
+     </void>
+     <void property="genero">
+      <string>Accion</string>
+     </void>
+     <void property="titulo">
+      <string>RGSFSDFG</string>
+     </void>
+     <void property="valoracion">
+      <int>4</int>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
