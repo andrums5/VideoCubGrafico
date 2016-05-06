@@ -86,7 +86,63 @@ public class ListaPeliculas implements Serializable {
 //        return false;
         return lista.contains(p);
     }
-    
+    public Pelicula favorita(){
+        if (lista.isEmpty()) {
+        return null;
+        }
+        else {
+        Pelicula fav = lista.get(0);
+            for (Pelicula p : lista) {
+                if (p.getValoracion() > fav.getValoracion()) {
+                    fav = p;
+                    
+                }
+                
+            }
+         return fav;   
+        }
+    }
+    public ListaPeliculas peliculasPorVer(){
+        ListaPeliculas porVer = new ListaPeliculas();
+        for (Pelicula p : lista) {
+        if (!p.isVisto()) {
+            porVer.altaPelicula(p);
+            
+        }
+            
+        }
+        return porVer;
+    }
+     public ArrayList <Pelicula> valoracion(){
+         ArrayList <Pelicula> valora= new ArrayList<>();
+         for (Pelicula p : lista){
+            if (p.getValoracion()>=5){
+                valora.add(p);
+               
+                
+         }
+        }
+         return valora;
+     } 
+     public ListaPeliculas peliculasVistas(){
+        ListaPeliculas vistas = new ListaPeliculas();
+        for (Pelicula p : lista) {
+        if (p.isVisto()) {
+            vistas.altaPelicula(p);
+            
+        }
+            
+        }
+        return vistas;
+    }
+      public int numeroPeliculasPorVer(){
+       return peliculasPorVer().cantidad();
+        
+    }
+     public int numeroPeliculasVistas(){
+       return peliculasVistas().cantidad();
+        
+    }
     public ArrayList<Pelicula> getLista() {
         return lista;
     }
